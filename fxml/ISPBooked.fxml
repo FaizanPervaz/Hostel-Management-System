@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #338a8a;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <ImageView fitHeight="350.0" fitWidth="310.0" layoutX="250.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <Image url="file:/D:/eclipsework/fjavafx/fxml/logo2.png" />
+   </ImageView>
+
+   <Label layoutX="195.0" layoutY="265.0" prefHeight="35.0" prefWidth="419.0" text="🌐 Internet ISP Booked 📶" textFill="#66006e">
+      <font>
+         <Font name="Georgia Bold" size="30.0" />
+      </font>
+   </Label>
+   <Label layoutX="251.0" layoutY="340.0" prefHeight="40.0" prefWidth="104.0" text="ISP Id : " textFill="#66006e">
+      <font>
+         <Font name="Georgia Bold" size="24.0" />
+      </font>
+   </Label>
+   <Label fx:id="time_left" layoutX="355.0" layoutY="342.0" prefHeight="35.0" prefWidth="187.0" textFill="RED">
+      <font>
+         <Font name="Georgia Bold" size="24.0" />
+      </font>
+   </Label>
+
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #338a8a;">
+         <ImageView fitHeight="350.0" fitWidth="310.0" layoutX="250.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="file:/D:/eclipsework/fjavafx/fxml/logo2.png" />
+         </ImageView>
+      
+         <Label layoutX="230.0" layoutY="273.0" prefHeight="35.0" prefWidth="382.0" text="🚌 Transport Booked 🛺" textFill="#66006e">
+            <font>
+               <Font name="Georgia Bold" size="30.0" />
+            </font>
+         </Label>
+         <Label layoutX="168.0" layoutY="340.0" prefHeight="40.0" prefWidth="187.0" text="Transport Id : " textFill="#66006e">
+            <font>
+               <Font name="Georgia Bold" size="24.0" />
+            </font>
+         </Label>
+         <Label fx:id="time_left" layoutX="355.0" layoutY="342.0" prefHeight="35.0" prefWidth="187.0" textFill="RED">
+            <font>
+               <Font name="Georgia Bold" size="24.0" />
+            </font>
+         </Label>
+         <Label layoutX="168.0" layoutY="380.0" prefHeight="40.0" prefWidth="187.0" text="Vehicle No : " textFill="#66006e">
+            <font>
+               <Font name="Georgia Bold" size="24.0" />
+            </font>
+         </Label>
+         <Label fx:id="time_left1" layoutX="355.0" layoutY="382.0" prefHeight="35.0" prefWidth="187.0" textFill="RED">
+            <font>
+               <Font name="Georgia Bold" size="24.0" />
+            </font>
+         </Label>
+      
+      </AnchorPane>
+   </center>
+</BorderPane>

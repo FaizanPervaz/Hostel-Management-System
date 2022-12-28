@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.br">
+   <top>
+      <AnchorPane fx:id="tl1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #338a8a;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="160.0" layoutY="246.0" text="Room has booked id:">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="tl1" layoutX="396.0" layoutY="252.0" text="Room id" />
+            <ImageView fitHeight="188.0" fitWidth="260.0" layoutX="188.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="file:/D:/eclipsework/fjavafx/fxml/logo2.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="472.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <AnchorPane fx:id="anchorpane" prefHeight="507.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <TitledPane animated="false" layoutX="177.0" layoutY="-73.0" text="untitled" />
+            <TitledPane fx:id="cv" animated="false" layoutX="184.0" text="Curriculum Vitae">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="0.0" prefWidth="217.0" />
+              </content>
+               <font>
+                  <Font name="Bell MT" size="17.0" />
+               </font>
+            </TitledPane>
+            <ImageView fx:id="image" fitHeight="150.0" fitWidth="200.0" layoutX="34.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@application/dani.jpg" />
+               </image></ImageView>
+            <Label fx:id="l2" layoutX="383.0" layoutY="70.0" prefHeight="38.0" prefWidth="154.0" text="Daniyal Imran">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l4" layoutX="415.0" layoutY="103.0" prefHeight="35.0" prefWidth="90.0" text="20i-0940">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="l1" layoutX="237.0" layoutY="70.0" prefHeight="38.0" prefWidth="70.0" text="Name">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="l3" layoutX="231.0" layoutY="101.0" prefHeight="39.0" prefWidth="82.0" text="Roll-No">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <Label fx:id="l5" layoutX="246.0" layoutY="138.0" prefHeight="30.0" prefWidth="53.0" text="CGPA">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="l6" layoutX="431.0" layoutY="138.0" text="2.00">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="l7" layoutX="251.0" layoutY="168.0" text="Email">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l8" layoutX="357.0" layoutY="168.0" prefHeight="27.0" prefWidth="221.0" text="daniyalimran60@gmail.com">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="l9" layoutX="62.0" layoutY="235.0" prefHeight="35.0" prefWidth="94.0" text="LinkedIn">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Hyperlink fx:id="hl" layoutX="265.0" layoutY="233.0" text="pk.linkedin/daniyal imran">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Hyperlink>
+            <Label fx:id="l10" layoutX="56.0" layoutY="264.0" prefHeight="35.0" prefWidth="105.0" text="University">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l11" layoutX="287.0" layoutY="266.0" text="Fast-Nuces,Islamabad">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="147.0" layoutY="331.0" prefHeight="52.0" prefWidth="331.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="150.39998779296874" minWidth="0.7999999999999972" prefWidth="123.1999755859375" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="216.0" minWidth="10.0" prefWidth="113.8000244140625" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="28.4" minHeight="28.4" prefHeight="28.4" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="24.4" minHeight="10.0" prefHeight="24.4" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="gl2" prefHeight="27.0" prefWidth="99.0" text="Photgraphy" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gl3" text="Overthinking" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gl4" prefHeight="27.0" prefWidth="93.0" text="Travelling" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gl1" prefHeight="34.0" prefWidth="152.0" text="Coin Collection">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Label fx:id="l12" layoutX="59.0" layoutY="299.0" prefHeight="35.0" prefWidth="99.0" text="Hobbies">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label fx:id="l13" layoutX="29.0" layoutY="383.0" text="Unique selling point">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <GridPane layoutX="153.0" layoutY="408.0" prefHeight="66.0" prefWidth="352.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.4000244140625" minWidth="10.0" prefWidth="161.6000244140625" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.2" minWidth="10.0" prefWidth="164.7999755859375" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="35.60001220703125" minHeight="10.0" prefHeight="35.60001220703125" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="38.79996337890625" minHeight="10.0" prefHeight="29.19998779296875" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="gl5" prefHeight="49.0" prefWidth="170.0" text="Expert in Node js">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gl6" prefHeight="36.0" prefWidth="160.0" text="Expert in mongodb" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="gl7" prefHeight="27.0" prefWidth="182.0" text="Problem-solving skills" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
